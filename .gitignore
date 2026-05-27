@@ -1,0 +1,31 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Bases de datos y almacenamiento local
+*.db
+*.sqlite
+*.sqlite3
+qdrant_db/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Herramientas e IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Logs y archivos temporales
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
