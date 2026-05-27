@@ -68,7 +68,3 @@ Ejecuta diagnostico local:
 ```bash
 python -m scripts.diagnostico
 ```
-
-## Archivos que no se suben a Git
-
-`.env`, bases `.db`, `qdrant_db/`, `venv/`, caches e IDEs quedan ignorados por `.gitignore`.
